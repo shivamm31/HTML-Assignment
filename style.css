@@ -45,6 +45,7 @@ a {
   font-weight: bolder;
 }
 
+
 /* table start */
 .table-content {
   font-family: Arial, Helvetica, sans-serif;
@@ -76,6 +77,62 @@ a {
 
 /* table end */
 
+/* Form-Start */
+
+.form {
+  float: left;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+input[type=text],
+select {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.button {
+  background-color: #486b00;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  margin: 8px 0;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #4c2f66;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+textarea {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Form-End */
+
 /* Inline css-start */
 .center {
   display: block;
@@ -87,6 +144,7 @@ a {
 .body-part {
   margin-left: 200px;
   margin-right: 200px;
+  margin-bottom: 600px;
 }
 
 .html-start a:link {
@@ -103,6 +161,7 @@ a {
   color: darkblue;
   text-decoration: underline;
 }
+
 /* Inline css-end */
 
 /* Responsive */
@@ -125,6 +184,6 @@ a {
   }
 
   .form {
-    width: 200px;
+    width: 365px;
   }
 }
